@@ -1,0 +1,39 @@
+.modelDiv{
+    width: 320px;
+    height: 320px;
+    background-color: white;
+    position: fixed;
+    transition: 0.4s;
+    left: 50%;
+    top: -500%;
+    transform: translate(-50%, -50%);
+}
+.modelOverLay{
+    width: 100%;
+    position: fixed;
+    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.236);
+  }
+  .modelShow{
+    display: block;
+   .modelDiv{
+    top: 50%;
+   }
+  }
+  .env{
+    position: fixed;
+    right: 0px;
+    top: 100px;
+  }
+  .x{
+   position:fixed;
+    top: 10px;
+    right: 0px;
+  }
+
+  .f{
+    position: absolute;
+    top: 45px;
+  }
+  
