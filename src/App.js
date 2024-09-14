@@ -12,6 +12,7 @@ import Passobjecttochildcomponent from './component/Passobjecttochildcomponent';
 import Usestatehookusing from './component/Usestatehookusing';
 import Useternaryoprator from './component/Useternaryoprator';
 import Workonuseeffect from './component/Workonuseeffect';
+import WorkonuseReducer from './component/WorkonuseReducer';
 // import Header from './component/Header';
 // import Howusebootstrap from './component/Howusebootstrap';
 // import Learnprops from './component/Learnprops';
@@ -53,7 +54,8 @@ function App() {
 
     {/* <Createatodolist /> */}
 
-    <Workonuseeffect />
+    {/* <Workonuseeffect /> */}
+    <WorkonuseReducer />
 
      
     </div>
