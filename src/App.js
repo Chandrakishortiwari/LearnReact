@@ -2,6 +2,7 @@
 
 import './App.css';
 import Childrenprops from './component/Childrenprops';
+import Createatodolist from './component/Createatodolist';
 import Eventhendlinguses from './component/Eventhendlinguses';
 import Hideandshowpassword from './component/Hideandshowpassword';
 import Ifelseusing from './component/ifelseusing';
@@ -10,6 +11,7 @@ import Menu from './component/menu/Menu';
 import Passobjecttochildcomponent from './component/Passobjecttochildcomponent';
 import Usestatehookusing from './component/Usestatehookusing';
 import Useternaryoprator from './component/Useternaryoprator';
+import Workonuseeffect from './component/Workonuseeffect';
 // import Header from './component/Header';
 // import Howusebootstrap from './component/Howusebootstrap';
 // import Learnprops from './component/Learnprops';
@@ -47,7 +49,11 @@ function App() {
 
      {/* <Menu /> */}
 
-    <Createloginmodel />
+    {/* <Createloginmodel /> */}
+
+    {/* <Createatodolist /> */}
+
+    <Workonuseeffect />
 
      
     </div>
