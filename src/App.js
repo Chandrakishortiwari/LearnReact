@@ -8,6 +8,7 @@ import Ifelseusing from './component/ifelseusing';
 import Createloginmodel from './component/Loginmodel/Createloginmodel';
 import Menu from './component/menu/Menu';
 import Passobjecttochildcomponent from './component/Passobjecttochildcomponent';
+import Tabingsystem from './component/Tabingsystem';
 import Createatodolist from './component/Todo/Createatodolist';
 import Usestatehookusing from './component/Usestatehookusing';
 import Useternaryoprator from './component/Useternaryoprator';
@@ -54,7 +55,9 @@ function App() {
   {/* <Workonuseeffect /> */}
     {/* <WorkonuseReducer /> */}
 
-         <Createatodolist />
+         {/* <Createatodolist /> */}
+
+         <Tabingsystem />
      
     </div>
   );
