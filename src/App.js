@@ -2,13 +2,13 @@
 
 import './App.css';
 import Childrenprops from './component/Childrenprops';
-import Createatodolist from './component/Createatodolist';
 import Eventhendlinguses from './component/Eventhendlinguses';
 import Hideandshowpassword from './component/Hideandshowpassword';
 import Ifelseusing from './component/ifelseusing';
 import Createloginmodel from './component/Loginmodel/Createloginmodel';
 import Menu from './component/menu/Menu';
 import Passobjecttochildcomponent from './component/Passobjecttochildcomponent';
+import Createatodolist from './component/Todo/Createatodolist';
 import Usestatehookusing from './component/Usestatehookusing';
 import Useternaryoprator from './component/Useternaryoprator';
 import Workonuseeffect from './component/Workonuseeffect';
@@ -51,12 +51,10 @@ function App() {
      {/* <Menu /> */}
 
     {/* <Createloginmodel /> */}
+  {/* <Workonuseeffect /> */}
+    {/* <WorkonuseReducer /> */}
 
-    {/* <Createatodolist /> */}
-
-    {/* <Workonuseeffect /> */}
-    <WorkonuseReducer />
-
+         <Createatodolist />
      
     </div>
   );

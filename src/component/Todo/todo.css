@@ -1,0 +1,26 @@
+.outerdiv{
+    width: 1170px;
+    margin: auto;
+}
+.outerdiv ul{
+    
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    list-style: none;
+}
+.outerdiv, ul, li{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    background-color: black;
+}
+.outerdiv ul li span{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
