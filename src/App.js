@@ -9,6 +9,7 @@ import Createloginmodel from './component/Loginmodel/Createloginmodel';
 import Menu from './component/menu/Menu';
 import Passobjecttochildcomponent from './component/Passobjecttochildcomponent';
 import Tabingsystem from './component/Tabingsystem';
+import Interview from './component/Task/Interview';
 import Createatodolist from './component/Todo/Createatodolist';
 import Usestatehookusing from './component/Usestatehookusing';
 import Useternaryoprator from './component/Useternaryoprator';
@@ -29,15 +30,15 @@ function App() {
   return (
     <div className="App">
      
-     {/* <Header />
-     <Howusebootstrap /> 
+      {/* <Header /> */}
+     {/* <Howusebootstrap />  */}
 
-     <Learnprops learnprops={learnprops} /> 
+     {/* <Learnprops learnprops={learnprops} />  */}
 
-      <Childrenprops>hhhh</Childrenprops> */}
-{/* 
-      <Passobjecttochildcomponent></Passobjecttochildcomponent>
-      */}
+      {/* <Childrenprops>hhhh</Childrenprops>  */}
+
+      {/* <Passobjecttochildcomponent></Passobjecttochildcomponent> */}
+     
        
        {/* <Eventhendlinguses/> */}
 
@@ -57,7 +58,9 @@ function App() {
 
          {/* <Createatodolist /> */}
 
-         <Tabingsystem />
+         {/* <Tabingsystem /> */}
+
+         <Interview />
      
     </div>
   );
